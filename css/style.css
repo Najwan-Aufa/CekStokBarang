@@ -1,0 +1,229 @@
+/* --- Reset Style --- */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* --- Body Style --- */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    padding: 20px;
+}
+
+/* --- Header Style --- */
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+/* --- Table Style --- */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+table, th, td {
+    border: 1px solid #ddd;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+}
+
+th {
+    background-color: #4CAF50;
+    color: white;
+}
+
+/* Hover effect pada baris tabel */
+tr:hover {
+    background-color: #f1f1f1;
+}
+
+/* --- Form Pencarian --- */
+form {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+input[type="text"] {
+    padding: 10px;
+    width: 300px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+button {
+    padding: 10px 20px;
+    border: none;
+    background-color: #4CAF50;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+/* --- Link Tambah Barang --- */
+a {
+    text-decoration: none;
+    padding: 10px 15px;
+    background-color: #4CAF50;
+    color: white;
+    border-radius: 5px;
+}
+
+a:hover {
+    background-color: #45a049;
+}
+
+/* --- Logout Button --- */
+a.logout {
+    float: right;
+    margin: 10px;
+    background-color: #e74c3c;
+    color: white;
+}
+
+a.logout:hover {
+    background-color: #c0392b;
+}
+
+/* --- Form Login --- */
+form.login {
+    max-width: 300px;
+    margin: 50px auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background: #fff;
+}
+
+form.login label {
+    display: block;
+    margin-bottom: 8px;
+}
+
+form.login input[type="text"],
+form.login input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+form.login button {
+    width: 100%;
+}
+
+/* --- Pesan Error --- */
+.error {
+    color: red;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+/* --- Pesan Sukses --- */
+.success {
+    color: green;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+
+/* Tombol Aksi */
+a {
+    padding: 5px 10px;
+    border-radius: 5px;
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    opacity: 0.8;
+}
+
+/* Tombol Kurangi */
+a.kurangi {
+    background-color: #f39c12;
+}
+
+/* Tombol Hapus */
+a.hapus {
+    background-color: #e74c3c;
+}
+
+/* Tombol Load More */
+a.load-more {
+    padding: 10px 20px;
+    border-radius: 5px;
+    background-color: #3498db;
+    color: white;
+    text-decoration: none;
+    display: inline-block;
+}
+
+a.load-more:hover {
+    background-color: #2980b9;
+}
+
+/* Header - Tombol sejajar */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+/* Tombol Tambah Barang */
+a.btn-tambah {
+    padding: 10px 20px;
+    border-radius: 5px;
+    background-color: #28a745;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a.btn-tambah:hover {
+    background-color: #218838;
+}
+
+/* Tombol Logout */
+a.btn-logout {
+    padding: 10px 20px;
+    border-radius: 5px;
+    background-color: #dc3545;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a.btn-logout:hover {
+    background-color: #c82333;
+}
+
+/* Tombol Load More */
+a.load-more {
+    padding: 10px 20px;
+    border-radius: 5px;
+    background-color: #3498db;
+    color: white;
+    text-decoration: none;
+    display: inline-block;
+    font-weight: bold;
+}
+
+a.load-more:hover {
+    background-color: #2980b9;
+}
+
+
